@@ -1,0 +1,3 @@
+aylien-apiclient==0.6.0
+beautifulsoup4==4.5.3
+requests==2.12.4
