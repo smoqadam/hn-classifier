@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hacker news classifier</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="container">
+    <header class="masthead">
+        <h1 class="masthead-title">
+            <a href="/">Hacker News Classifier</a>
+        </h1>
+    </header>
+    <div class="content list">
+        {% block content %}
+        {% endblock%}
+    </div>
+    <script>
+
+    </script>
+<footer>
+Powerd by <a href="http://aylien.com/">Aylien Text Analysis API</a>.
+You can find source code in <a style="height: 13px;display: inline-block;" href="http://github.com/smoqadam/hr-classifier"><img src="http://smoqadam.me/static/img/github.png" width="16"/></a>
+</footer>
+</div>
+
+</body>
+</html>

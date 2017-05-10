@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{%block content %}
+    {% for label, links in c.items %}
+        <h4>{{ label }} </h4> 
+        <ul>
+            {% for text,link in links %}
+                <li><a href="{{ link }}">{{ text }} </a></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock %}
